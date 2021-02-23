@@ -1,0 +1,44 @@
+.complete-video {
+    height: 95vh;
+}
+
+.complete-video-bg {
+    position: relative;
+    z-index: 2;
+    height: 95vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url("../images/complete-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: brothers, sans-serif;
+    transition: opacity 0.25s ease-in;
+}
+
+.complete-video-bg:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.play-button {
+    position: relative;
+    z-index: 3;
+    background-image: url("../images/play-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+    position: relative;
+    top: -50vh;
+}
+
+.complete-video-bg:hover + .play-button {
+    position: relative;
+    z-index: 3;
+    background-image: url("../images/play-red.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+    position: relative;
+    top: -50vh;
+}
