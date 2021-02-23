@@ -14,27 +14,10 @@
     transition: opacity 0.25s ease-in;
 }
 
-.complete-video-bg:hover {
-    opacity: 70%;
-    cursor: pointer;
-}
-
 .play-button {
     position: relative;
     z-index: 3;
     background-image: url("../images/play-white.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 6vh;
-    position: relative;
-    top: -50vh;
-}
-
-.complete-video-bg:hover + .play-button {
-    position: relative;
-    z-index: 3;
-    background-image: url("../images/play-red.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
