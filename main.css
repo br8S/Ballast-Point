@@ -116,6 +116,10 @@ header {
     }
 
     .mobile-nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         transition: transform 0.3s ease-in;
         transform: translate(0, 2000%);
         font-size: 2.7rem;
@@ -130,5 +134,9 @@ header {
     .mobile-nav-links:hover {
         color: red;
         cursor: pointer;
+    }
+
+    .arrow {
+        height: 2vh;
     }
 }
