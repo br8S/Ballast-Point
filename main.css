@@ -161,17 +161,21 @@ header {
         width: 100%;
     }
 
-    .mobile-drop-links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 2rem;
-        margin: 0 6rem;
-        padding: 1rem 0rem;
-        position: relative;
-        top: 13vh;
-        font-weight: bold;
-        border-bottom: 0.1rem solid rgba(255, 255, 255, 0.274);
+    .locations-drop-nav {
+        flex-direction: column;
+        position: fixed;
+        z-index: 5;
+        list-style: none;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .about-drop-nav {
+        flex-direction: column;
+        position: fixed;
+        z-index: 5;
+        list-style: none;
+        height: 100vh;
+        width: 100%;
     }
 }
