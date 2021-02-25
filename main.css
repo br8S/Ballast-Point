@@ -34,7 +34,7 @@ header {
 .nav-bar {
     display: flex;
     position: fixed;
-    z-index: 4;
+    z-index: 6;
     width: 100%;
     padding: 3rem 6rem;
     font-size: 1.1rem;
@@ -105,7 +105,7 @@ header {
         display: flex;
         flex-direction: column;
         position: fixed;
-        z-index: 3;
+        z-index: 5;
         list-style: none;
         height: 100vh;
         width: 100%;
