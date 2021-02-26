@@ -104,6 +104,10 @@ header {
         margin: 0 auto;
     }
 
+    .nav-bar {
+        padding: 3rem 2rem;
+    }
+
     .burger {
         background-image: url("images/burger.png");
         height: 3.5vh;
