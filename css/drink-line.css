@@ -38,3 +38,13 @@
     border-radius: 3%;
     border: 0px;
 }
+
+@media screen and (max-width: 800px) {
+    .slogan {
+        font-size: 6rem;
+    }
+    
+    .slogan-2 {
+        font-size: 6rem;
+    }
+}
