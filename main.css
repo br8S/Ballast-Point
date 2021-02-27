@@ -183,3 +183,10 @@ header {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .learn-more {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.7rem;
+    }
+}

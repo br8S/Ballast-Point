@@ -43,3 +43,22 @@
     border-radius: 3%;
     border: 0px;
 }
+
+@media screen and (max-width: 800px) {
+    .msg-1 {
+        margin: 1rem 0 0 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .msg-2 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.5rem 0 3rem 0;
+    }
+
+    .explore-new {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.7rem;
+    }
+}

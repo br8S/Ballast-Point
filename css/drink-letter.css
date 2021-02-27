@@ -7,3 +7,9 @@
     background-position: top;
     font-family: brothers, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+    .drink-letter {
+        height: 120vh;
+    }
+}
